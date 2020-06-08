@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<script src="https://kit.fontawesome.com/fce719a544.js" crossorigin="anonymous"></script>
 	<title>
 		HELLO
 	</title>
@@ -37,9 +38,26 @@
 		.DESCRIPTION{
 			font-size:125%;
 		}
-		#footer{
+		#links{
 			font-size: 100%;
 			font-weight: bold;
+		}
+		.footer{
+			border:1px solid transparent;
+			text-align: center;
+			line-height: 0.5;
+		}
+		span i{
+		    display:inline-block;
+		    font-size: 50px;
+		    width: 50px;
+		    height: 50px;
+		    color:black;
+		}
+		#icons:hover,#icons:active{
+			font-size: 25px;
+			background-color: transparent;
+			border: none;
 		}
 	</style>
 </head>
@@ -175,13 +193,24 @@
 		</li>
 	</ul>
 	<br>
-	<a href="#logo" title="Click to visit top of the page" style="color:black;line-height: 2" id="footer">
+	<a href="#logo" title="Click to visit top of the page" style="color:black;line-height: 2" id="links">
 		BACK TO TOP
 	</a><br>
-	<a href="https://www.coursera.org/search?query=html%20css%20javascript&" id="footer"title="Click to see realted courses" target="_blank" style="color:black;">		
+	<a href="https://www.coursera.org/search?query=html%20css%20javascript&" id="links" title="Click to see realted courses" target="_blank" style="color:black;">		
 		RELATED COURSES
 	</a>
 	<hr color="black">
-	<h4 align="center">CONTACT US</h4>
+	<footer>
+		<h4 align="center">
+			<u>
+				CONTACT US:
+			</u>
+		</h4>
+		<section class="footer">
+			<span><a id="icons" href="https://www.linkedin.com/in/kartik-garg-a49335149/"><i class="fab fa-linkedin"></i></a></span>
+			<span><i class="fab fa-github"></i></span>
+			<span><a id="icons" href="phoneto:8284878491"><i class="fas fa-envelope"></i></a></span>
+		</section>
+	</footer>
 </body>
 </html>
